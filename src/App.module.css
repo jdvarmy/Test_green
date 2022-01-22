@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.wrapper > div {
+    width: 80vw;
+}
+.wrapper > div:first-child {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+}
+.buttons {
+    display: flex;
+}
+.buttons > * {
+    margin: 1em;
+}
